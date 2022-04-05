@@ -1,6 +1,4 @@
 USE [Anudesh Saini]
-SELECT * FROM [Hotel]
-SELECT * FROM [Location]
 
 --- Q.1 Find the number of total hotels available ?
 SELECT COUNT(DISTINCT(hotel_id)) as Total_hotels  FROM [Hotel]
